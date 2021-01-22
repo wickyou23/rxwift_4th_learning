@@ -1,0 +1,6 @@
+framework module Pods_RxSwift_GitFeed {
+  umbrella header "Pods-RxSwift-GitFeed-umbrella.h"
+
+  export *
+  module * { export * }
+}

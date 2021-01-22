@@ -1,0 +1,56 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'RxSwiftExt'
+
+target 'RxSwift-Playground' do
+  workspace 'RxSwift-Playground.xcworkspace'
+  
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+end
+
+target 'RxSwift-Combinestagram' do
+  project 'RxSwift-Combinestagram/RxSwift-Combinestagram.xcodeproj'
+  workspace 'RxSwift-Playground.xcworkspace'
+  
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+end
+
+target 'RxSwift-GitFeed' do
+  project 'RxSwift-GitFeed/RxSwift-GitFeed.xcodeproj'
+  workspace 'RxSwift-Playground.xcworkspace'
+  
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  pod 'Kingfisher'
+
+end
+
+target 'RxSwift-OutPlanet' do
+  project 'RxSwift-OutPlanet/RxSwift-OutPlanet.xcworkspace'
+  workspace 'RxSwift-Playground.xcworkspace'
+  
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+end
+
+target 'RxSwift-Wundercast' do
+  project 'RxSwift-Wundercast/RxSwift-Wundercast.xcworkspace'
+  workspace 'RxSwift-Playground.xcworkspace'
+  
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  pod 'RxKingfisher'
+
+end
+
+
